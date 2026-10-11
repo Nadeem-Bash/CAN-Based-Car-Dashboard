@@ -1,0 +1,217 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"21 C:\Users\HP\Desktop\emertxe\MC\ECU_3.X\can.c
+[e E10933 _CanOpMode `uc
+e_can_op_mode_normal 0
+e_can_op_mode_loop 64
+e_can_op_mode_config 128
+]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"14 C:\Users\HP\Desktop\emertxe\MC\ECU_3.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+"46
+[v _get_msg_id_std get_msg_id_std `(us  1 s 2 get_msg_id_std ]
+"53
+[v _set_msg_id_std set_msg_id_std `(v  1 s 1 set_msg_id_std ]
+"86
+[v _can_receive can_receive `(v  1 e 1 0 ]
+"4 C:\Users\HP\Desktop\emertxe\MC\ECU_3.X\clcd.c
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+"27
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+"58
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+"21 C:\Users\HP\Desktop\emertxe\MC\ECU_3.X\ecu3_main.c
+[v _main main `(v  1 e 1 0 ]
+"4420 C:/Program Files/Microchip/MPLABX/v6.30/packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\pic\include\proc/pic18f4580.h
+[v _RXFCON0 RXFCON0 `VEuc  1 e 1 @3540 ]
+"20961
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"21073
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"21165
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3907 ]
+"21277
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3908 ]
+"21389
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"21467
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"23526
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+"23719
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"23831
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"24157
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"24272
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"24768
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"24877
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24981
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25043
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25114
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+"25432
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"25712
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"26056
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"27057
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27279
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27501
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"36406
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"36409
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"36421
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"36490
+[v _RD7 RD7 `VEb  1 e 0 @31775 ]
+"36838
+[v _RXB0FUL RXB0FUL `VEb  1 e 0 @31495 ]
+"36844
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"39358
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"39361
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"39421
+[v _TRISD7 TRISD7 `VEb  1 e 0 @31919 ]
+"39778
+[v _TXB0REQ TXB0REQ `VEb  1 e 0 @31235 ]
+"21 C:\Users\HP\Desktop\emertxe\MC\ECU_3.X\ecu3_main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"73
+[v main@key key `uc  1 a 1 26 ]
+"31
+[v main@recv_buffer recv_buffer `[6]uc  1 a 6 20 ]
+"32
+[v main@recv_msg_id recv_msg_id `ui  1 a 2 27 ]
+"33
+[v main@msg_id msg_id `*.30us  1 a 1 31 ]
+"35
+[v main@rcv_len rcv_len `*.30uc  1 a 1 30 ]
+"34
+[v main@rcv rcv `uc  1 a 1 29 ]
+"96
+} 0
+"27 C:\Users\HP\Desktop\emertxe\MC\ECU_3.X\clcd.c
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+{
+"56
+} 0
+"14 C:\Users\HP\Desktop\emertxe\MC\ECU_3.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+{
+"44
+} 0
+"58 C:\Users\HP\Desktop\emertxe\MC\ECU_3.X\clcd.c
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+{
+[v clcd_print@data data `*.35Cuc  1 p 2 2 ]
+[v clcd_print@addr addr `uc  1 p 1 4 ]
+"65
+} 0
+"4
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+{
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@control_bit control_bit `uc  1 p 1 0 ]
+"6
+[v clcd_write@byte byte `uc  1 p 1 1 ]
+"25
+} 1
+"86 C:\Users\HP\Desktop\emertxe\MC\ECU_3.X\can.c
+[v _can_receive can_receive `(v  1 e 1 0 ]
+{
+"97
+[v can_receive@i i `i  1 a 2 16 ]
+"87
+[v can_receive@ptr ptr `*.39uc  1 a 2 14 ]
+"86
+[v can_receive@msg_id msg_id `*.30us  1 p 1 8 ]
+[v can_receive@data data `*.30uc  1 p 1 9 ]
+[v can_receive@len len `*.30uc  1 p 1 10 ]
+"109
+} 0
+"46
+[v _get_msg_id_std get_msg_id_std `(us  1 s 2 get_msg_id_std ]
+{
+"47
+[v get_msg_id_std@id id `us  1 a 2 6 ]
+"50
+} 0
